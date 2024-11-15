@@ -1,23 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import ChatSection from "./components/ChatSection";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="w-screen min-h-screen bg-gray-900 p-20 text-white">
+      <h1 className="text-4xl text-green-500 backdrop-blur-md sticky top-0 my-4 tracking-wide font-semibold">Simple Maths tutor</h1>
+      <ChatSection />
     </div>
   );
 }
