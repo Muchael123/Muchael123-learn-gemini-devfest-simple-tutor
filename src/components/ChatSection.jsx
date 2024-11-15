@@ -61,9 +61,9 @@ function ChatSection() {
               <div
                 className={` max-w-[60%] p-2 rounded-lg ${
                   item.role === "user"
-                    ? "bg-[#2E86C1]"
-                    : "bg-[#212F3D] "
-                } text-black`}
+                    ? "bg-[#2E86C1] text-[#ffffff]"
+                    : "bg-[#212F3D] text-[#f2f3f5]"
+                } `}
               >
                 {item.parts.map((part, index) => {
                   return (
